@@ -19,6 +19,7 @@ import android.widget.Toast;
 public class BaseActivity extends AppCompatActivity {
 
     private int permissionRequestCode = 88;
+
     private PermissionCallback permissionRunnable;
 
     public interface PermissionCallback {

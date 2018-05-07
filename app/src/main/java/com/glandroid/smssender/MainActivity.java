@@ -40,6 +40,7 @@ public class MainActivity extends BaseActivity {
                 return;
             }
             System.out.println(phoneNumber + ":" + message);
+
             performCodeWithPermission("发送短信权限", new PermissionCallback() {
                 @Override
                 public void hasPermission() {
